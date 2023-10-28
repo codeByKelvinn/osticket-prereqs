@@ -39,7 +39,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+
+3.) Once you have connected to your virtual machine you will want to go to your control panel. From the control panel open up programs. Select, Turn Windows features on and off.
+![windows - programs images](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/6f25089a-ae30-42d2-a38f-681a7cc0ea7c)
+![windows - programs images 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/8de18f83-f254-46c6-be7e-0e34392a731c)
+
+
 </p>
 <br />
 
