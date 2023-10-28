@@ -50,7 +50,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  4.) You will want to install / enable IIS in Windows with CGI and Common HTTP Features
+
+World Wide Web Services -> Application Development Features -> [X] CGI [X] Common HTTP Features
+![Windows with CGI and Common HTTP Features 1](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/2766e8ca-d9fe-4e12-9fa2-1ab6ffa864b4)
+
+![Windows with CGI and Common HTTP Features 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/464b9551-df70-4463-a8f3-7e9500f680ad)
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
