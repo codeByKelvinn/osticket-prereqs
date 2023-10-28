@@ -58,15 +58,67 @@ World Wide Web Services -> Application Development Features -> [X] CGI [X] Commo
 
 ![Windows with CGI and Common HTTP Features 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/464b9551-df70-4463-a8f3-7e9500f680ad)
 
+NOTE Make sure all Common HTTP Features are checked.
+
+To make sure the IIS is installed / enabled go to a browser of your choice and search for 127.0.0.1 It should look something like this.
+
+![IIS INSTALL](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/65d2a8e0-0886-40a6-9a70-5c381f2c4f9f)
+
+
 </p>
+<p>
+5.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Go through the install wizard and complete the install.
+
+6.) Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+7.) Create a folder in the C drive called PHP.
+
+8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
+
+!! ATTENTION !! If this appears, choose to “Keep” the file:
+![PHP KEEP FILE](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/72da29fb-ed97-49b3-b35a-2d2b300b1fc8)
+![PHP KEEP FILE 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/55ed6049-e3ae-42b6-99f9-f942aaef867b)
+
+</p>
+<br />
+
+<p>
+9.) Once you have downloaded and extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe from the installation files. Go through the setup wizard to finish setting up and installing the VC_redist.x86.exe.
+
+10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi) Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration ->
+
+Make the new root password: Password1
+
+![MYSQL SERVER 1](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/7d11f327-ea6e-41c1-9c9f-728c964f6f4a)
+Execute the process on the next page.
+![MYSQL SERVER 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/d5467a90-11ad-4b68-8898-68ed08470017)
+</p>
+<p>
+11.) Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar. Open IIS as an administrator. The program should look like this.
+
+![vm osticket home 1](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/c33239cf-1d59-4588-8c75-4c859357c161)
+
+2.) We will now want to register PHP from within IIS. Click on PHP Manager
+![vm osticket home 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/363b47a5-3b00-40ab-8cc3-0b661dd28f92)
+Register new PHP version.
+![vm osticket home 3](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/93b866a6-069b-49cb-a1da-5f571481ba9a)
+You will want to provide a path to the php executable file (php-cgi.exe)). Go to C Drive -> PHP -> click on php-cgi file.
+![register php](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/a7af460e-e363-47e8-a3bc-bd27de6cf3e0)
+Restart the IIS server.
+![iis restart](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/8a8f8fa4-abb7-4238-a4bd-8512e96fc7bf)
+
+
+  
+</p>
+<br />
+
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
