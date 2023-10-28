@@ -114,7 +114,23 @@ Make the new root password: Password1
 
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  13.) Install osTicket v1.15.8 -Download osTicket from the Installation Files Folder -Extract and copy "upload" folder to c:\inetpub\wwwroot -Within c:\inetpub\root, Rename "upload" to "osTicket"
+
+Reload IIS again.
+
+14.) On IIS go to sites -> Default -> osTicket -On the right, click “Browse *:80”
+![browse 80](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/9ec0702b-b2a4-4d46-89d0-01716aea389a)
+
+Some extensions are not enabled on the osTicket browser.
+![osticket extensions](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/9842972f-dfe3-4e77-b834-297817990390)
+
+
+To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double click PHP manager -Click "Enable or disable an extension"
+![PHP MANAGER ENABLE OR DISABLE](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/f150c03e-454d-44ca-a58a-351ca168ab84)
+![PHP MANAGER ENABLE OR DISABLE 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/2e65d66c-f6a0-4e13-b357-2caab8eec216)
+
+
+
 </p>
 <br />
 
