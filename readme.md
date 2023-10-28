@@ -149,13 +149,13 @@ Now we will add new permissions.
 
 Click Add
 ![ADD NEW PERMISSIONS](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/4b415f8b-32bd-45b4-93bd-fcde11bba03f)
-Select a principal
+Select a principal<br />
 ![ADD NEW PERMISSIONS 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/fd8c00b1-6865-4caf-8b05-52d68f305127)
-Type "Everyone" in the box.
+Type "Everyone" in the box.<br />
 ![ADD NEW PERMISSIONS 3](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/699f80b7-86b9-4168-83f1-ab4d806105d0)
-Make sure Full Control and all the other boxes are checked.
+Make sure Full Control and all the other boxes are checked.<br />
 ![ADD NEW PERMISSIONS 4](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/91845d3b-c657-4951-b0c7-effbfb763f26)
-Click Apply and Ok.
+Click Apply and Ok.<br />
 ![ADD NEW PERMISSIONS 5](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/aa7002ea-0ea7-472f-a5ea-a87f37a628a0)
 
 
@@ -166,11 +166,11 @@ Click Apply and Ok.
 <p>
 Once that is done we will continue to setup osTicket in the browser. Click Continue on the osTicket browser page. Fill out the page as required except the Database Settings at the bottom of the page. We will get to that.
 
-We will want to download and install HeidiSQL from the Installation Files.
+We will want to download and install HeidiSQL from the Installation Files.<br />
 ![HEIDISQL](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/6693fa80-b383-4260-b01a-ea13ca807549)
-When the program is open we will create a new session in it.
+When the program is open we will create a new session in it.<br />
 ![HEIDISQL 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/6effa132-8319-41b3-91bb-03c99afd2e92)
-We want to make sure the username is root and the password is Password1.
+We want to make sure the username is root and the password is Password1.<br />
 ![HEIDISQL 3](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/6c5550aa-4f1f-4b5f-ae86-17b964cee719)
 
 </p>
@@ -182,7 +182,7 @@ We want to make sure the username is root and the password is Password1.
 Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
 
 We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
-![database settings](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/e4e428fb-33b4-499f-8101-3d923c0a2458)
+![database settings](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/e4e428fb-33b4-499f-8101-3d923c0a2458)<br />
 The last step is to do some clean up. We will want to delete the setup folder in our system. -Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
 
 We then will want to set the permissions back to "Read" only in the ost-config.php file.
