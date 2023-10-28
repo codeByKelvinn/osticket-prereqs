@@ -186,6 +186,13 @@ We will now create a new database within HeidiSQL. In Heidi right click on the l
 The last step is to do some clean up. We will want to delete the setup folder in our system. -Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
 
 We then will want to set the permissions back to "Read" only in the ost-config.php file.
+![permissions config file](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/ca9c431d-1e55-4c31-a672-387083244ee2)
+![permissions config file 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/d6e1a80d-a4cc-4acc-8d3b-078ccc83dacb)
+
+<br />The last step after that is to login to osTicket on the browser.
+![OSTICKET COMPLETE](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/e0f967e8-7dfa-4786-9d45-926405db5d5c)
+
+Congrats! You have now successfully installed and setup osTicket!
 
 </p>
 <br />
