@@ -129,6 +129,34 @@ To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double 
 ![PHP MANAGER ENABLE OR DISABLE](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/f150c03e-454d-44ca-a58a-351ca168ab84)
 ![PHP MANAGER ENABLE OR DISABLE 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/2e65d66c-f6a0-4e13-b357-2caab8eec216)
 
+We will want to enable three extensions from here.
+
+1.) php_imap.dll
+
+2.) php_intl.dll
+
+3.) php_opcache.dll
+
+![PHP 3 EXTENSIONS](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/161fab26-54c8-41ca-a317-81a7c01913de)
+
+15.) Once we have those extensions enabled in IIS, we are going to want to rename one of the files in our osTicket folder. Go into the file explorer and search for C;\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+
+We are going to rename the ost-sampleconfig.php to ost-config.php
+
+Now that we have renamed the files, right click on the file and go to properties. From there click security, click on advance, and disable the inheritance. We will select Remove all inherited permissions from this object.
+
+Now we will add new permissions.
+
+Click Add
+![ADD NEW PERMISSIONS](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/4b415f8b-32bd-45b4-93bd-fcde11bba03f)
+Select a principal
+![ADD NEW PERMISSIONS 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/fd8c00b1-6865-4caf-8b05-52d68f305127)
+Type "Everyone" in the box.
+![ADD NEW PERMISSIONS 3](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/699f80b7-86b9-4168-83f1-ab4d806105d0)
+Make sure Full Control and all the other boxes are checked.
+![ADD NEW PERMISSIONS 4](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/91845d3b-c657-4951-b0c7-effbfb763f26)
+Click Apply and Ok.
+![ADD NEW PERMISSIONS 5](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/aa7002ea-0ea7-472f-a5ea-a87f37a628a0)
 
 
 </p>
@@ -136,6 +164,30 @@ To enable the extensions: -Go back to IIS, sites -> Default -> osTicket -Double 
 
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once that is done we will continue to setup osTicket in the browser. Click Continue on the osTicket browser page. Fill out the page as required except the Database Settings at the bottom of the page. We will get to that.
+
+We will want to download and install HeidiSQL from the Installation Files.
+![HEIDISQL](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/6693fa80-b383-4260-b01a-ea13ca807549)
+When the program is open we will create a new session in it.
+![HEIDISQL 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/6effa132-8319-41b3-91bb-03c99afd2e92)
+We want to make sure the username is root and the password is Password1.
+![HEIDISQL 3](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/6c5550aa-4f1f-4b5f-ae86-17b964cee719)
+
 </p>
 <br />
+
+
+
+<p>
+Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
+
+We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
+![database settings](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/e4e428fb-33b4-499f-8101-3d923c0a2458)
+The last step is to do some clean up. We will want to delete the setup folder in our system. -Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
+
+We then will want to set the permissions back to "Read" only in the ost-config.php file.
+
+</p>
+<br />
+
+
