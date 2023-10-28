@@ -182,7 +182,7 @@ We want to make sure the username is root and the password is Password1.<br />
 Once we are connected to the session we will go back to the browser to finish setting everything up. Under the Database Settings in the browser the username will be root and the password will be Password1.
 
 We will now create a new database within HeidiSQL. In Heidi right click on the left side where is says "Unnamed", select "create new", and then select "database". Name the new database osTicket. Once we have the new database setup go back to the osTicket browser and under MySQL Database type in osTicket.
-![database settings](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/e4e428fb-33b4-499f-8101-3d923c0a2458)<br />
+<br />![database settings](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/e4e428fb-33b4-499f-8101-3d923c0a2458)<br />
 The last step is to do some clean up. We will want to delete the setup folder in our system. -Delete: C:\inetpub\wwwroot\osTicket\setup Only delete the setup folder and nothing else.
 
 We then will want to set the permissions back to "Read" only in the ost-config.php file.
