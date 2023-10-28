@@ -149,13 +149,13 @@ Now we will add new permissions.
 
 Click Add
 <br />![ADD NEW PERMISSIONS](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/4b415f8b-32bd-45b4-93bd-fcde11bba03f)
-Select a principal<br />
+<br />Select a principal
 <br />![ADD NEW PERMISSIONS 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/fd8c00b1-6865-4caf-8b05-52d68f305127)
-Type "Everyone" in the box.<br />
+<br />Type "Everyone" in the box.
 <br />![ADD NEW PERMISSIONS 3](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/699f80b7-86b9-4168-83f1-ab4d806105d0)
-Make sure Full Control and all the other boxes are checked.<br />
+<br />Make sure Full Control and all the other boxes are checked.<br />
 <br />![ADD NEW PERMISSIONS 4](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/91845d3b-c657-4951-b0c7-effbfb763f26)
-Click Apply and Ok.<br />
+<br />Click Apply and Ok.
 <br />![ADD NEW PERMISSIONS 5](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/aa7002ea-0ea7-472f-a5ea-a87f37a628a0)
 
 
