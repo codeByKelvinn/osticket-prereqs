@@ -75,7 +75,7 @@ World Wide Web Services -> Application Development Features -> [X] CGI [X] Commo
 
 8.) From the Installation Files, download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) and unzip the contents into C:\PHP
 
-!! ATTENTION !! If this appears, choose to “Keep” the file:
+<br />!! ATTENTION !! If this appears, choose to “Keep” the file:
 ![PHP KEEP FILE](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/72da29fb-ed97-49b3-b35a-2d2b300b1fc8)
 ![PHP KEEP FILE 2](https://github.com/codeByKelvinn/osticket-prereqs/assets/110644520/55ed6049-e3ae-42b6-99f9-f942aaef867b)
 
